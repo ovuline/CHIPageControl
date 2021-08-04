@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "CHIPageControl",
+    platforms: [.iOS(.v9)],
     products: [
         .library(name: "CHIPageControl", targets: ["CHIPageControl"])
     ],
